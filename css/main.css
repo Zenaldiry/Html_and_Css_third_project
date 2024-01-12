@@ -92,11 +92,11 @@ html {
     text-align: center;
     padding: 10px 20px;
     border: solid 3px black;
-    width: 200px;
+    width: fit-content;
     margin: 0 auto 50px;
     position: relative;
     transition: .3s;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 20px;
 
 }
@@ -315,7 +315,7 @@ header .container .mega-menu .links-group li a {
     text-decoration: none;
     color: var(--main-color);
     font-weight: bold;
-    min-width: 250px;
+    min-width: 260px;
     margin: 0 20px;
     font-size: 20px;
     position: relative;
@@ -391,8 +391,19 @@ header .container .mega-menu .links-group li a i {
     justify-content: space-around;
 }
 
+@media (max-width: 992px) {
+    .landing .container {
+        justify-content: center;
+
+    }
+
+    .landing .container h1 {
+        min-width: 450px;
+    }
+}
+
 .landing .container .text {
-    flex-basis: 35%;
+    flex-basis: 50%;
 }
 
 .landing .container .text h1 {
