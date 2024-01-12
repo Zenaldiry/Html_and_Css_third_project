@@ -429,6 +429,8 @@ header .container .mega-menu .links-group li a i {
 
     .landing .container .text p {
         font-size: 18px;
+        max-width: 300px;
+        margin: auto;
     }
 }
 
